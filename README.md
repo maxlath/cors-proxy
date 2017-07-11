@@ -1,6 +1,7 @@
 # cors-proxy
 
 A minimalist [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS) proxy to be used on your local machine.
+Tailored for JSON requests.
 
 ## Install
 

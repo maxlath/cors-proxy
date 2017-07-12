@@ -5,4 +5,5 @@ set -eu
 sudo env "PATH=$PATH" add-to-systemd \
    --env FORCE_COLOR=true \
    --env PATH="$PATH" \
+   --user "$USERNAME" \
    corsproxy "$(which node) $(pwd)/index.js"
